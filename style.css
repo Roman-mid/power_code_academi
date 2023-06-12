@@ -513,6 +513,9 @@ img {
   .form__btn {
     background: var(--bg_blue);
   }
+  .form__btn:hover {
+    background: var(--bg_blue);
+  }
 }
 
 @media(max-width: 500px) {
