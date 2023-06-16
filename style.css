@@ -190,7 +190,7 @@ img {
   content: '';
   background: var(--bg_red);
   border-radius: 5px;
-  transform: skewY(-3deg);
+  transform: skewY(-3.5deg);
   top: 0;
   left: 0;
   right: 0;
@@ -208,9 +208,7 @@ img {
   margin-top: 20px;
   line-height: 26.5px;
 }
-.offer__br {
-  display: none;
-}
+
 .offer__text span {
   font-weight: 600;
 }
@@ -241,7 +239,8 @@ img {
   height: 50px;
 }
 .teacher__text {
-  width: 375px;
+  width: 310px;
+  /* width: 375px; */
 
 }
 .teacher__name {
@@ -258,7 +257,9 @@ img {
   font-size: 12px;
   font-weight: 400;
   line-height: 19px;
+  /* width: 310px; */
 }
+
 
 .gift__img {
   width: 51px;
@@ -273,7 +274,8 @@ img {
 }
 .gift__text {
   font-size: 12px;
-  width: 278px;
+  width: 213px;
+  /* width: 278px; */
 }
 .gift__name {
   font-weight: 700;
@@ -500,6 +502,7 @@ img {
   }
   .offer__text {
     font-size: 14px;
+    line-height: 20.7px;
   }
   .offer__text span:nth-child(1n+2) {
     background: none;
@@ -528,15 +531,15 @@ img {
     height: auto;
   }
 
-  .offer__br {
-    display: block;
-  }
-
-  .info_mobile .teacher .teacher__text,
+  /* .info_mobile .teacher .teacher__text,
   .info_mobile .gift .gift__text {
     width: 250px;
+  } */
+  
+  .info_mobile .teacher ,
+  .info_mobile .gift {
+    gap: 10px;
   }
-
   .gift__book,
   .teacher__experience {
     line-height: 19px;
@@ -558,10 +561,12 @@ img {
     display: block;
   }
 
-  .info_mobile .teacher .teacher__text,
-  .info_mobile .gift .gift__text {
-    /* width: auto; */
-    width: 165px;
+  .teacher, .gift {
+    gap: 10px;
+  }
+  .info_mobile .gift .gift__text,
+  .info_mobile .teacher .teacher__text {
+    width: 163px;
   }
 
 }
