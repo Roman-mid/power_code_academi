@@ -44,13 +44,14 @@ img {
 }
 
 .left-bg {
-  width: 399.01px;
-  height: 400.31px;
-  left: -31.33px;
-  bottom: 489.69px;
+  width: 399px;
+  height: 400px;
+  left: -31px;
+  top: -40px;
+  /* bottom: 489px; */
   opacity: 0.5;
-  filter: blur(103.131px);
-  transform: rotate(9.41deg);
+  filter: blur(103px);
+  transform: rotate(9deg);
   }
 
 .right-bg {
@@ -412,6 +413,16 @@ img {
   .container {
     width: 720px;
   }
+
+  .left-bg {
+    width: 912px;
+    height: 912px;
+    left: 100%;
+    top: 100%;
+    filter: blur(250px);
+    transform: translate(-65%, -65%) rotate(9deg);
+  }
+
   .header {
     padding: 26px 30px;
   }
