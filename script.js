@@ -11,7 +11,7 @@ const mail = form.email;
 const btn = form.querySelector('.form__btn');
 const inps = form.querySelectorAll('.form__input');
 
-phone.value = '+380'
+// phone.value = '+380'
 
 function sendMail() {
 
